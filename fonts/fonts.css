@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Future New';
+  src: url(FuturaNewDemi-Reg.woff2) format('woff2'), url(FuturaNewDemi-Reg.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SchoolBook';
+  src: url(NewCenturySchlbkLTStd-Roman.woff2) format('woff2'), url(NewCenturySchlbkLTStd-Roman.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
