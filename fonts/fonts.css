@@ -1,7 +1,14 @@
 @font-face {
-  font-family: 'Future New';
+  font-family: 'Futura New';
   src: url(FuturaNewDemi-Reg.woff2) format('woff2'), url(FuturaNewDemi-Reg.woff) format('woff');
   font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura New';
+  src: url(FuturaNewBook-Reg.woff2) format('woff2'), url(FuturaNewBook-Reg.woff) format('woff');
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -10,4 +17,73 @@
   src: url(NewCenturySchlbkLTStd-Roman.woff2) format('woff2'), url(NewCenturySchlbkLTStd-Roman.woff) format('woff');
   font-weight: 400;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'icons';
+  src:  url('./icons.woff2') format('woff2'),
+      url('./icons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+
+.icon-ampula:before {
+  content: "\e900";
+}
+.icon-bone:before {
+  content: "\e901";
+}
+.icon-canin:before {
+  content: "\e902";
+}
+.icon-cat:before {
+  content: "\e903";
+}
+.icon-dog:before {
+  content: "\e904";
+}
+.icon-dogs:before {
+  content: "\e905";
+}
+.icon-dr:before {
+  content: "\e906";
+}
+.icon-endocr:before {
+  content: "\e907";
+}
+.icon-grooming:before {
+  content: "\e908";
+}
+.icon-heart:before {
+  content: "\e909";
+}
+.icon-lizards:before {
+  content: "\e90a";
+}
+.icon-pet:before {
+  content: "\e90b";
+}
+.icon-pilul:before {
+  content: "\e90c";
+}
+.icon-scalp:before {
+  content: "\e90d";
+}
+.icon-surgery:before {
+  content: "\e90e";
+}
+.icon-syringe:before {
+  content: "\e90f";
 }
