@@ -39,51 +39,79 @@
   line-height: 1;
 }
 
+
+.icon-dogs:before {
+  content: "\e907";
+}
+.icon-pet:before {
+  content: "\e910";
+}
 .icon-ampula:before {
   content: "\e900";
 }
-.icon-bone:before {
+.icon-arrow-left:before {
   content: "\e901";
 }
-.icon-canin:before {
+.icon-arrow-right:before {
   content: "\e902";
 }
-.icon-cat:before {
+.icon-bone:before {
   content: "\e903";
 }
-.icon-dog:before {
+.icon-canin:before {
   content: "\e904";
 }
-.icon-dogs:before {
+.icon-cat:before {
   content: "\e905";
 }
-.icon-dr:before {
+.icon-dog:before {
   content: "\e906";
 }
-.icon-endocr:before {
-  content: "\e907";
-}
-.icon-grooming:before {
+.icon-dr:before {
   content: "\e908";
 }
-.icon-heart:before {
+.icon-endocr:before {
   content: "\e909";
 }
-.icon-lizards:before {
+.icon-fb:before {
   content: "\e90a";
 }
-.icon-pet:before {
+.icon-grooming:before {
   content: "\e90b";
 }
-.icon-pilul:before {
+.icon-heart:before {
   content: "\e90c";
 }
-.icon-scalp:before {
+.icon-inst:before {
   content: "\e90d";
 }
-.icon-surgery:before {
+.icon-lizards:before {
   content: "\e90e";
 }
-.icon-syringe:before {
+.icon-location:before {
   content: "\e90f";
+}
+.icon-phone:before {
+  content: "\e911";
+}
+.icon-pilul:before {
+  content: "\e912";
+}
+.icon-scalp:before {
+  content: "\e913";
+}
+.icon-surgery:before {
+  content: "\e914";
+}
+.icon-syringe:before {
+  content: "\e915";
+}
+.icon-vk:before {
+  content: "\e916";
+}
+.icon-watch:before {
+  content: "\e917";
+}
+.icon-youtube:before {
+  content: "\e918";
 }
