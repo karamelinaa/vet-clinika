@@ -357,3 +357,123 @@ img {
   color: #59443F;
   transform: scale(1.1);
 }
+
+.about-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FBF8F8;
+  width: 100%;
+  height: 100%;
+}
+
+.title__history-of-company {
+  font-family: SchoolBook;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2.8px;
+}
+
+.text__history-of-company {
+  color: var(--brown, #59443F);
+  font-family: Futura New;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 479px;
+  padding: 48px 0 36px 0;
+  letter-spacing: -0.8px;
+}
+
+.button {
+  color: var(--orange, #FFC59E);
+  font-family: Futura New;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  min-width: 200px;
+  min-height: auto;
+  border: none;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.button__more-information {
+  margin: 0 902px 0 875px;
+  padding-bottom: 100px;
+}
+
+.card__our-specialists {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 36px;
+}
+
+.title__our-specialists {
+  color: var(--text, #080606);
+  font-family: SchoolBook;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  padding-bottom: 48px;
+  letter-spacing: 3px;
+}
+
+.card-specialists-link {
+  text-decoration: none;
+}
+
+.avatar-specialist {
+  width: 178px;
+  height: 178px;
+  flex-shrink: 0;
+  border-radius: 100px;
+}
+
+.button__our-specialist {
+  padding-bottom: 206px;
+}
+
+.advantages-of-the-company {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 316px;
+}
+
+/* .overlay { чета подумал
+  background-image: url(../images/image_bird.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+} */
+
+.numbers {
+  color: var(--brown, #59443F);
+  font-family: SchoolBook;
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110px;
+  max-width: fit-content;
+}
+
+.pet {
+  color: var(--text, #080606);
+  font-family: Futura New;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110px;
+  max-width: 716px;
+  letter-spacing: -3.5px;
+}
