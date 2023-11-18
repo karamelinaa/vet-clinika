@@ -105,14 +105,15 @@ img {
   transform: scale(1.1);
 }
 /*  < Стили последней страницы с контактами и футером >  */
-.contacts{
+.contacts {
   max-width: 1920px;
   margin: auto;
-  padding: 232px 212px 170px 230px;
+  padding: 232px 212px 171px 230px;
   display: flex;
   justify-content: space-between;
 }
-.address{
+
+.address {
   color: #59443F;
   font-family: 'Futura New', serif;
   font-size: 20px;
@@ -122,9 +123,10 @@ img {
   text-align: left;
   font-style: normal;
 }
-.lots{
+
+.lots {
   color: #080606;
-  font-family: 'SchoolBook',serif;
+  font-family: 'SchoolBook', serif;
   font-size: 40px;
   font-weight: 400;
   line-height: 40px;
@@ -132,7 +134,8 @@ img {
   letter-spacing: 3px;
   margin-bottom: 73px;
 }
-.contact_title{
+
+.contact_title {
   color: #080606;
   font-family: 'SchoolBook', serif;
   font-size: 30px;
@@ -142,98 +145,93 @@ img {
   text-align: left;
   white-space: nowrap;
 }
-.contact_info{
+
+.contact_info {
   display: flex;
   align-items: flex-start;
   gap: 19px;
-  
 }
-.address_icon{
+
+.address_icon {
   display: block;
   max-width: 46px;
   margin-top: 22px;
-  
 }
-.address_info{
+
+.address_info {
   margin-top: 21px;
 }
-.contact_icon{
+
+.contact_icon {
   display: block;
   max-width: 46px;
   margin-top: 13px;
 }
-.contact_number{
+
+.contact_number {
   text-decoration: none;
   margin-top: 22px;
 }
-.clock_icon{
+
+.clock_icon {
   display: block;
   max-width: 46px;
   margin-top: 13px;
 }
-.work_hours{
+
+.work_hours {
   margin-top: 25px;
   margin-bottom: 47px;
 }
-.contacts_map{
+
+.contacts_map {
   margin-top: 115px;
 }
-.footer{
+
+.footer {
   background-color: #59443F;
-  width: 1920px;
-  height: 469px;
-  display: flex;
-  padding: 78px 234px 60px 230px;
+  display: grid;
+  padding: 78px 214px 60px 230px;
+  grid-template-columns: 90px 1fr 350px;
   margin: auto;
   position: relative;
 }
 
-.about_logo{
-width: 90px;
-height: 90px;
-margin-right: 22px;
+.about_logo {
+  width: 90px;
+  height: 90px;
+  margin-top: 3px;
 }
-.about_title{
+
+.about_menu {
+  margin-left: 22px;
+  margin-top: 7px;
+}
+
+.about_title {
   color: #FFF;
-  font-family: 'SchoolBook';
+  font-family: 'SchoolBook', serif;
   font-size: 50px;
   font-weight: 700;
   line-height: 46px;
   letter-spacing: 3px;
   text-align: left;
-  margin-top: 5px;
-
-  
-  
+  margin-bottom: 10px;
+  margin-left: 2px;
 }
-.about_text_one{
-color: #FFF;
-font-family: 'Futura New', serif;
-font-size: 20px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0px;
-text-align: left;
-margin-top: 10px;
-margin-bottom: 37px;
 
-}
-.about_text{
+.about_title_two {
   color: #FFF;
-  text-decoration: none;
   font-family: 'Futura New', serif;
   font-size: 20px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 20px;
   letter-spacing: 0px;
   text-align: left;
-  margin-right: 50px;
+  margin-bottom: 40px;
 }
-.footer_menu{
-display: flex;
-align-items: center;
-}
-.footer_links-list{
+
+.about_title_link {
   color: #FFF;
   font-family: 'Futura New', serif;
   font-size: 20px;
@@ -241,38 +239,86 @@ align-items: center;
   line-height: 30px;
   letter-spacing: 0px;
   text-align: left;
-  margin-left: 62px;
-  margin-top: 115px;
- 
-}
-.footer_links-list-item_no-bullit{
-}
-.footer_link_active{
   text-decoration: none;
 }
-.footer_links-list-item{
 
-}
-.footer_link{
-  text-decoration: none;
-}
-.footer_menu_two{
-  margin-top: 5px;
-  margin-left: 77px;
-}
-.footer__social-link{
+.about_nav_menu {
   display: flex;
-  
 }
-.appstore_icon{
-position: absolute;
-width: 140px;
-right: 405px;
-top: 90px;
+
+.footer_nav {
+  color: #fff;
+  font-family: 'Futura New', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  margin-left: 107px;
+  margin-right: 30px;
 }
-.googleplay_icon{
+
+.footer_link_active {
+  text-decoration: none;
+}
+
+.footer_link {
+  text-decoration: none;
+}
+
+.appstore_logo {
+  width: 140px;
+  margin-bottom: 9px;
+  margin-left: 36px;
+}
+
+.googleplay_logo {
   width: 158px;
-  position: absolute;
-  right: 235px;
-  top: 80px;
+  margin-left: 8px;
+  margin-top: 2px;
+}
+
+.footer__social-list-item {
+  display: flex;
+  gap: 50px;
+  margin-top: 27px;
+  margin-left: 37px;
+}
+
+.footer_feedback_link {
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+  font-family: 'Futura New', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  margin-left: 38px;
+  margin-top: 26px;
+}
+
+.footer_link_site {
+  text-decoration: none;
+}
+
+.footer_link_mail {
+  text-decoration: none;
+}
+
+.footer_end_text {
+  color: #FFF;
+  font-family: 'Futura New', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 64px;
+}
+
+.footer_end_image {
+  width: 22px;
+  height: 22px;
+  margin-top: 7px;
 }
