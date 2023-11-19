@@ -365,6 +365,10 @@ img {
   background: #FBF8F8;
   width: 100%;
   height: 100%;
+  padding: 180px 333px 206px 333px;
+  margin: 0 auto;
+  max-width: 1920px;
+  min-width: 1253px;
 }
 
 .title__history-of-company {
@@ -373,59 +377,83 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 40px;
-  letter-spacing: 2.8px;
+  letter-spacing: 3.6px;
+  padding-bottom: 48px;
 }
 
 .text__history-of-company {
-  color: var(--brown, #59443F);
+  color: #59443F;
   font-family: Futura New;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
   width: 479px;
-  padding: 48px 0 36px 0;
-  letter-spacing: -0.8px;
+  padding-bottom: 36px;
+  letter-spacing: 0;
+}
+
+.button_container {
+  display: flex;
+  gap: 5px;
+  align-items: center;
 }
 
 .button {
-  color: var(--orange, #FFC59E);
+  color: #FFC59E;
   font-family: Futura New;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
-  min-width: 200px;
+  min-width: auto;
   min-height: auto;
   border: none;
   text-transform: uppercase;
   background-color: transparent;
+  cursor: pointer;
 }
 
-.button__more-information {
-  margin: 0 902px 0 875px;
-  padding-bottom: 100px;
+.icon-slide {
+  color: #FFC59E;
 }
 
 .card__our-specialists {
   display: flex;
+  align-items: center;
   gap: 15px;
   padding-bottom: 36px;
 }
 
 .title__our-specialists {
-  color: var(--text, #080606);
+  color: #080606;
   font-family: SchoolBook;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
   line-height: 40px;
+  padding-top: 100px;
   padding-bottom: 48px;
   letter-spacing: 3px;
 }
 
+.link-list-left {
+  text-decoration: none;
+}
+
 .card-specialists-link {
   text-decoration: none;
+}
+
+.back-icon-reverse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FBF8F8;
+  background-color: #FFC59E;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 .avatar-specialist {
@@ -435,8 +463,26 @@ img {
   border-radius: 100px;
 }
 
-.button__our-specialist {
-  padding-bottom: 206px;
+.link-list-right {
+  text-decoration: none;
+}
+
+.back-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FBF8F8;
+  background-color: #FFC59E;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.button__our-specialist-link {
+  text-decoration: none;
+  display: flex;
+  gap: 5px;
+  align-items: center;
 }
 
 .advantages-of-the-company {
@@ -449,33 +495,36 @@ img {
   padding-top: 316px;
 }
 
-/* .overlay { чета подумал
-  background-image: url(../images/image_bird.png);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-} */
-
 .numbers {
-  color: var(--brown, #59443F);
+  color: #59443F;
   font-family: SchoolBook;
   font-size: 144px;
   font-style: normal;
   font-weight: 700;
   line-height: 110px;
   max-width: fit-content;
+  min-width: 716px;
+  letter-spacing: 5.5px;
 }
 
 .pet {
-  color: var(--text, #080606);
+  color: #080606;
   font-family: Futura New;
   font-size: 80px;
   font-style: normal;
   font-weight: 400;
   line-height: 110px;
   max-width: 716px;
-  letter-spacing: -3.5px;
+  letter-spacing: -0.3px;
+  word-spacing: 0.8px;
+}
+
+.bird {
+  width: 288px;
+  height: 223px;
+  flex-shrink: 0;
+  z-index: 1;
+  transform: translate(172px, -86px);
 }
 
 /* начало блока с преимуществами перед footer*/
