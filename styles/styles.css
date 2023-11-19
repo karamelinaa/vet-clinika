@@ -38,7 +38,6 @@ a {
 img {
   width: 100%;
 }
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -742,13 +741,16 @@ img {
 
 .footer {
   background-color: #59443F;
-  display: grid;
+  color: #fff;
+  position: relative;
+}
+.footer_container{
+  max-inline-size: 1920px;
   padding: 78px 214px 60px 230px;
   grid-template-columns: 90px 1fr 350px;
   margin: auto;
-  position: relative;
+  display: grid;
 }
-
 .about_logo {
   width: 90px;
   height: 90px;
@@ -761,8 +763,8 @@ img {
 }
 
 .about_title {
-  color: #FFF;
-  font-family: 'SchoolBook', serif;
+  color: inherit;
+  font-family: 'SchoolBook',serif;
   font-size: 50px;
   font-weight: 700;
   line-height: 46px;
@@ -773,7 +775,7 @@ img {
 }
 
 .about_title_two {
-  color: #FFF;
+  color: inherit;
   font-family: 'Futura New', serif;
   font-size: 20px;
   font-weight: 400;
@@ -784,7 +786,7 @@ img {
 }
 
 .about_title_link {
-  color: #FFF;
+  color: inherit;
   font-family: 'Futura New', serif;
   font-size: 20px;
   font-weight: 400;
@@ -799,7 +801,7 @@ img {
 }
 
 .footer_nav {
-  color: #fff;
+  color: inherit;
   font-family: 'Futura New', serif;
   font-size: 20px;
   font-weight: 400;
@@ -839,7 +841,7 @@ img {
 .footer_feedback_link {
   display: flex;
   flex-direction: column;
-  color: #FFF;
+  color: inherit;
   font-family: 'Futura New', serif;
   font-size: 20px;
   font-weight: 400;
@@ -858,7 +860,7 @@ img {
 }
 
 .footer_end_text {
-  color: #FFF;
+  color: inherit;
   font-family: 'Futura New', serif;
   font-size: 20px;
   font-weight: 400;
