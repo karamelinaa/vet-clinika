@@ -39,6 +39,12 @@ img {
   width: 100%;
 }
 
+.page {
+  min-width: 1760px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -91,7 +97,7 @@ img {
 }
 
 .header__location-image:hover {
-  content: url(/vet-clinika/images/ic_location_dark.svg);
+  content: url(../images/ic_location_dark.svg);
 }
 
 .header__location-text {
@@ -103,6 +109,10 @@ img {
   line-height: 20px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.icon-vk:hover {
+  color: #59443F;
 }
 
 .header__location-text:hover {
@@ -219,7 +229,7 @@ img {
 .cover__main {
   position: relative;
   padding-left: 415px;
-  background-image: url(/vet-clinika/images/image_animals.svg);
+  background-image: url(../images/animals.png);
   background-repeat: no-repeat;
   background-position: right;
   padding-bottom: 150;
