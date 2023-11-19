@@ -11,7 +11,102 @@
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
+    <header id="header" class="header">
+      <a class="header__logo">
+        <img class="header__logo-image"
+        src="./images/logo.svg"
+        alt="Логотип"> 
+      </a>
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item">
+            <a class="header__link" href="#">Личный кабинет</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#">О нас</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#">Новости и акции</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#">Контакты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#">Блог</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__location">
+        <a href="#popup" class="header__location-image">
+          <img class="header__location-image"
+          src="./images/ic_location.svg"
+          alt="иконка локации">
+        </a>
+        <a href="#popup" class="header__location-text popup-link">Волгоград</a>
+      </div>
+    </header>
     <main>
+      <section class="cover">
+        <nav class="cover__menu">
+          <ul class="cover__menu-list">
+            <li class="cover__menu-list-item">
+              <a class="cover__link" href="#">1</a>
+            </li>
+            <li class="cover__menu-list-item">
+              <a class="cover__link" href="#">2</a>
+            </li>
+            <li class="cover__menu-list-item">
+              <a class="cover__link" href="#">3</a>
+            </li>
+            <li class="cover__menu-list-item">
+              <a class="cover__link" href="#">4</a>
+            </li>
+            <li class="cover__menu-list-item">
+              <a class="cover__link" href="#">5</a>
+            </li>
+            <li class="cover__menu-list-item">
+              <a class="cover__link" href="#">6</a>
+            </li>
+          </ul>
+        </nav>
+      </section>  
+      <section class="cover__main">
+        <h1 class="cover__main-title">Айболит круглосуточная ветклиника</h1>
+        <button class="cover__main-button">Записаться</button>
+        <ul class="cover__main-social-list">
+          <li class="cover__main-social-list-item">
+            <a class="cover__main-social-link" href="#">
+              <img class="cover__main-social-icon" 
+              src="./images/inst.svg"
+              alt="Логотип instagram">
+            </a>
+          </li>
+          <li class="cover__main-social-list-item">
+            <a class="cover__main-social-link" href="#">
+              <img class="cover__main-social-icon"
+              src="./images/fb.svg"
+              alt="Логотип facebook">
+            </a>
+          </li>
+          <li class="cover__main-social-list-item">
+            <a class="cover__main-social-link" href="#">
+              <img class="cover__main-social-icon"
+              src="./images/vk.svg"
+              alt="Логотип vk">
+            </a>
+          </li>
+          <li class="cover__main-social-list-item">
+            <a class="cover__main-social-link" href="#">
+              <img class="cover__main-social-icon"
+              src="./images/youtube.svg"
+              alt="Логотип youtube">
+            </a>
+          </li>
+        </ul>
+        <address class="cover__main-phone-number">
+          <a href="tel:+70000000" class="phone__number">+7(8442) 96 22 92</a>
+        </address>
+      </section>
       <section class="services">
         <ul class="services__list">
           <li>
@@ -160,6 +255,55 @@
           </li>
         </ul>
       </section>
+      <section class="about-company">
+        <h2 class="title__history-of-company">История компании</h2>
+          <p class="text__history-of-company">История компании начинается 14 января 1999 года, когда было образовано ООО «Чижи». Идея пришла, т.к. у основателя компании Прозор Жанны Георгиевны была собака боксёр по кличке Бард…</p>
+          <a class="button__link" href="#0">
+            <button class="button button__more-information" type="button">читать далее</button>
+          </a>
+        <h2 class="title__our-specialists">Наши специалисты</h2>
+        <div class="card__our-specialists">
+          <a class="card-specialists-link" href="#0">
+            <img class="avatar-specialist" src="./images/surgeon.png" alt="Хирург в красной шапочке">
+          </a>
+          <a class="card-specialists-link" href="#0">
+            <img class="avatar-specialist" src="./images/horse.png" alt="Конь">
+          </a>
+          <a class="card-specialists-link" href="#0">
+            <img class="avatar-specialist" src="./images/surgeon.png" alt="Хирург в красной шапочке">
+          </a>
+          <a class="card-specialists-link" href="#0">
+            <img class="avatar-specialist" src="./images/surgeon2.png" alt="Хирург в красной маске">
+          </a>
+          <a class="card-specialists-link" href="#0">
+            <img class="avatar-specialist" src="./images/surgeon2.png" alt="Хирург в красной маске">
+          </a>
+          <a class="card-specialists-link" href="#0">
+            <img class="avatar-specialist" src="./images/surgeon2.png" alt="Хирург в красной маске">
+          </a>
+        </div>
+        <button class="button button__our-specialist" type="button">посмотреть всех</button>
+    </section>
+    <section class="advantages-of-the-company">
+      <!-- <div class="overlay"></div> сильна подумать про птичку! -->
+        <span class="numbers">1 150 000</span>
+        <span class="pet">питомцам мы помогли за 18 лет работы</span>
+    </section>
+    </main>
+    <div id="popup" class="popup">
+      <a href="#header" class="popup__area"></a>
+      <div class="popup__body">
+        <div class="popup__content">
+          <a href="#" class="popup__close">X</a>
+          <div class="popup__title">Ваш город</div>
+            <div class="popup__text">
+              <a href="#" class="popup__city">Волгоград</a>
+              <a href="#" class="popup__city">Грозный</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
       <!-- < Код последней страницы с контактами и футером > -->
       <section class="contacts">
         <address class="address">

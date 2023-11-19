@@ -39,9 +39,262 @@ img {
   width: 100%;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 65px 80px 130px;
+}
+
+.header__logo {
+  display: block;
+  min-width: 100px;
+}
+
+.header__logo-image {
+  width: 100%; 
+}
+
+.header__menu {
+  color: grey;
+  font-family: 'Futura New', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.header__links-list-item {
+  display: inline;
+  padding-right: 80px;
+  white-space: nowrap;
+}
+
+.header__links-list-item:hover {
+  color: #59443F;
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+.header__location {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.header__location-image {
+  display: block;
+  min-width: 46px;
+}
+
+.header__location-image:hover {
+  content: url(/vet-clinika/images/ic_location_dark.svg);
+}
+
+.header__location-text {
+  color: #FFC59E;
+  font-family: 'Futura New', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header__location-text:hover {
+  color: #59443F;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: rgba(8, 6, 6, 0.50);
+  transition: all 0.3s ease 0s;
+}
+
+.popup__area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.popup:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  padding: 30px 10px;
+}
+
+.popup__content {
+  position: relative;
+  max-width: 400px;
+  border-radius: 20px;
+  padding: 50px 123px;
+  color: black;
+  text-align: center;
+  background-color: #FFF;
+}
+
+.popup__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #000;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  text-decoration: none; 
+}
+
+.popup__title {
+  padding-bottom: 40px;
+  font-family: 'SchoolBook', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.popup__text {
+  display: block;
+  font-family: 'Futura New', serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.popup__city {
+  display: block;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+
+.popup__text a:last-child {
+  margin-bottom: 0;
+}
+
+.popup__city:hover {
+  color: #FFC59E;
+}
+
+.cover__menu {
+  position: absolute;
+  padding-left: 124px; 
+  color: grey;
+  font-family: 'Futura New', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.cover__menu-list li:first-child {
+  color: #080606;
+}
+
+.cover__menu-list-item {
+  padding-bottom: 70px;
+}
+
+.cover__link {
+  text-decoration: none;
+}
+
+.cover__main {
+  position: relative;
+  padding-left: 415px;
+  background-image: url(/vet-clinika/images/image_animals.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-bottom: 150;
+}
+
+.cover__main-title {
+  max-width: 645px;
+  padding-bottom: 50px;
+  color: #080606;
+  font-family: SchoolBook;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 110px;
+}
+
+.cover__main-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 285px;
+  height: 67px;
+  margin-bottom: 197px;
+  border: none;
+  border-radius: 33.5px;
+  padding: 24px 77px;
+  box-shadow: 0px 4px 20px 0px #FFC59E;
+  color: #FFF;
+  font-family: 'Futura New', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color:  #FFC59E;
+}
+
+.cover__main-button:hover {
+  background-color: #59443F;
+  cursor: pointer;
+}
+
+.cover__main-social-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 50px;
+  padding-bottom: 81px;
+}
+
+.cover__main-social-icon {
+  display: block;
+  min-width: 40px;
+  min-height: 40px;
+}
+
+.cover__main-phone-number {
+  position: absolute;
+  right: 78.59px;
+  bottom: 80px;
+  color:  #59443F;
+  font-family: 'Futura New', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 30px;
+}
+
+.phone__number {
+  text-decoration: none;
+}
+
 .services {
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 150px 15px;
   max-inline-size: 1382px;
 }
 
@@ -104,6 +357,125 @@ img {
   color: #59443F;
   transform: scale(1.1);
 }
+
+.about-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FBF8F8;
+  width: 100%;
+  height: 100%;
+}
+
+.title__history-of-company {
+  font-family: SchoolBook;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2.8px;
+}
+
+.text__history-of-company {
+  color: var(--brown, #59443F);
+  font-family: Futura New;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 479px;
+  padding: 48px 0 36px 0;
+  letter-spacing: -0.8px;
+}
+
+.button {
+  color: var(--orange, #FFC59E);
+  font-family: Futura New;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  min-width: 200px;
+  min-height: auto;
+  border: none;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.button__more-information {
+  margin: 0 902px 0 875px;
+  padding-bottom: 100px;
+}
+
+.card__our-specialists {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 36px;
+}
+
+.title__our-specialists {
+  color: var(--text, #080606);
+  font-family: SchoolBook;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  padding-bottom: 48px;
+  letter-spacing: 3px;
+}
+
+.card-specialists-link {
+  text-decoration: none;
+}
+
+.avatar-specialist {
+  width: 178px;
+  height: 178px;
+  flex-shrink: 0;
+  border-radius: 100px;
+}
+
+.button__our-specialist {
+  padding-bottom: 206px;
+}
+
+.advantages-of-the-company {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 316px;
+}
+
+/* .overlay { чета подумал
+  background-image: url(../images/image_bird.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+} */
+
+.numbers {
+  color: var(--brown, #59443F);
+  font-family: SchoolBook;
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110px;
+  max-width: fit-content;
+}
+
+.pet {
+  color: var(--text, #080606);
+  font-family: Futura New;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110px;
+  max-width: 716px;
+  letter-spacing: -3.5px;
 /*  < Стили последней страницы с контактами и футером >  */
 .contacts {
   max-width: 1920px;
