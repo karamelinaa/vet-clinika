@@ -476,4 +476,221 @@ img {
   line-height: 110px;
   max-width: 716px;
   letter-spacing: -3.5px;
+/*  < Стили последней страницы с контактами и футером >  */
+.contacts {
+  max-width: 1920px;
+  margin: auto;
+  padding: 232px 212px 171px 230px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.address {
+  color: #59443F;
+  font-family: 'Futura New', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  font-style: normal;
+}
+
+.lots {
+  color: #080606;
+  font-family: 'SchoolBook', serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  letter-spacing: 3px;
+  margin-bottom: 73px;
+}
+
+.contact_title {
+  color: #080606;
+  font-family: 'SchoolBook', serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.contact_info {
+  display: flex;
+  align-items: flex-start;
+  gap: 19px;
+}
+
+.address_icon {
+  display: block;
+  max-width: 46px;
+  margin-top: 22px;
+}
+
+.address_info {
+  margin-top: 21px;
+}
+
+.contact_icon {
+  display: block;
+  max-width: 46px;
+  margin-top: 13px;
+}
+
+.contact_number {
+  text-decoration: none;
+  margin-top: 22px;
+}
+
+.clock_icon {
+  display: block;
+  max-width: 46px;
+  margin-top: 13px;
+}
+
+.work_hours {
+  margin-top: 25px;
+  margin-bottom: 47px;
+}
+
+.contacts_map {
+  margin-top: 115px;
+}
+
+.footer {
+  background-color: #59443F;
+  display: grid;
+  padding: 78px 214px 60px 230px;
+  grid-template-columns: 90px 1fr 350px;
+  margin: auto;
+  position: relative;
+}
+
+.about_logo {
+  width: 90px;
+  height: 90px;
+  margin-top: 3px;
+}
+
+.about_menu {
+  margin-left: 22px;
+  margin-top: 7px;
+}
+
+.about_title {
+  color: #FFF;
+  font-family: 'SchoolBook', serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 3px;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 2px;
+}
+
+.about_title_two {
+  color: #FFF;
+  font-family: 'Futura New', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.about_title_link {
+  color: #FFF;
+  font-family: 'Futura New', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.about_nav_menu {
+  display: flex;
+}
+
+.footer_nav {
+  color: #fff;
+  font-family: 'Futura New', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  margin-left: 107px;
+  margin-right: 30px;
+}
+
+.footer_link_active {
+  text-decoration: none;
+}
+
+.footer_link {
+  text-decoration: none;
+}
+
+.appstore_logo {
+  width: 140px;
+  margin-bottom: 9px;
+  margin-left: 36px;
+}
+
+.googleplay_logo {
+  width: 158px;
+  margin-left: 8px;
+  margin-top: 2px;
+}
+
+.footer__social-list-item {
+  display: flex;
+  gap: 50px;
+  margin-top: 27px;
+  margin-left: 37px;
+}
+
+.footer_feedback_link {
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+  font-family: 'Futura New', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  margin-left: 38px;
+  margin-top: 26px;
+}
+
+.footer_link_site {
+  text-decoration: none;
+}
+
+.footer_link_mail {
+  text-decoration: none;
+}
+
+.footer_end_text {
+  color: #FFF;
+  font-family: 'Futura New', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 64px;
+}
+
+.footer_end_image {
+  width: 22px;
+  height: 22px;
+  margin-top: 7px;
 }
